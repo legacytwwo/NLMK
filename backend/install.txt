@@ -1,0 +1,13 @@
+alembic
+uvicorn
+fastapi
+requests
+pydantic
+
+# python3 -m venv modules
+# pip3 freeze > install.txt
+# pip3 install --upgrade -r install.txt
+
+# alembic init migrations
+# alembic revision --autogenerate
+# alembic upgrade head
